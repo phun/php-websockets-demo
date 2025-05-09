@@ -49,11 +49,6 @@ class Chat implements MessageComponentInterface {
             $this->commandHandler->setConnection($from);
             $result = $this->commandHandler->handleCommand($data['command'], $data['args'] ?? []);
             echo "Command result: " . print_r($result, true) . "\n";
-            $from->send(json_encode([
-                'type' => 'command_response',
-                'command' => $data['command'],
-                'result' => $result
-            ]));
             return;
         }
 
