@@ -2,7 +2,8 @@
     "name": "pnguyen/php-websockets-demo",
     "description": "A simple WebSocket demo with PHP and TypeScript",
     "require": {
-        "cboden/ratchet": "^0.4.4"
+        "cboden/ratchet": "^0.4.4",
+        "symfony/console": "^6.0"
     },
     "autoload": {
         "psr-4": {
