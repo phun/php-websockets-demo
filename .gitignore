@@ -1,0 +1,7 @@
+/vendor/
+/node_modules/
+/public/js/
+.env
+.DS_Store
+composer.lock
+package-lock.json 

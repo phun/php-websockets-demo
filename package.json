@@ -1,0 +1,12 @@
+{
+  "name": "php-websockets-demo",
+  "version": "1.0.0",
+  "description": "WebSocket demo with PHP and TypeScript",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+} 

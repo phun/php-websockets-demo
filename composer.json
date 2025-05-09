@@ -1,0 +1,12 @@
+{
+    "name": "pnguyen/php-websockets-demo",
+    "description": "A simple WebSocket demo with PHP and TypeScript",
+    "require": {
+        "cboden/ratchet": "^0.4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+} 
